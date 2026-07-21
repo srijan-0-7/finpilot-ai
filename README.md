@@ -177,6 +177,3 @@ Render will give you a URL like `https://finpilot-ai-xyz.onrender.com` — that'
 - Scheduled/recurring reports (e.g. emailed weekly).
 - Replace the linear-trend forecast with a proper seasonal model (Prophet/ARIMA) once there's enough historical data to justify it.
 - Connection pooling for heavy PostgreSQL concurrent usage, if migrating off SQLite.
-
-## ⚠️ Honest Disclaimer
-No non-trivial piece of software is ever "flaw-free" — that's true of huge production systems at big companies too, not just personal projects. What this project does have: tested error handling for the failure modes that were actually identified and reproduced (bad AI responses, missing data, oversized uploads, wrong passwords/mutations, rate-limit abuse, malformed dates, dropped tables with foreign keys), rather than an unverified claim that nothing could ever go wrong. If you find something broken after deploying, that's normal for any shipped software — fix it as it comes up rather than treating it as a sign something was missed upfront.
