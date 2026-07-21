@@ -1,0 +1,27 @@
+finpilot-ai/
+├── backend/
+│   ├── api/                 # API routers and endpoints
+│   ├── core/                # Configuration, security, exceptions
+│   ├── models/              # Pydantic and SQLAlchemy models
+│   ├── services/            # Business logic (AI, DB, Export)
+│   ├── utils/               # Prompts, formatting helpers
+│   ├── tests/               # Pytest suite
+│   ├── main.py              # FastAPI application entry point
+│   └── requirements.txt
+├── frontend/
+│   ├── src/
+│   │   ├── assets/          # Static files
+│   │   ├── components/      # Reusable UI (Chat, Tables, Charts)
+│   │   ├── hooks/           # Custom React hooks
+│   │   ├── layouts/         # Page layouts (Sidebar, Topbar)
+│   │   ├── pages/           # Route components (Dashboard, Settings)
+│   │   ├── services/        # API client calls
+│   │   ├── store/           # Global state management
+│   │   ├── types/           # TypeScript interfaces
+│   │   ├── App.tsx          # Root component
+│   │   └── main.tsx         # React entry point
+│   ├── tailwind.config.js
+│   ├── tsconfig.json
+│   └── package.json
+├── data/                    # Sample SQLite databases
+└── docs/                    # Architecture, README, API Docs

@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Node
+node_modules/
+# Note: frontend/dist is intentionally NOT ignored — it's the pre-built
+# frontend that main.py serves directly, and shipping it means your
+# deploy host never needs Node.js installed at all. Run `npm run build`
+# inside frontend/ and commit the result whenever you change frontend code.
+
+# Data
+data/*.db
+data/users/*.db
+
+# OS
+.DS_Store
